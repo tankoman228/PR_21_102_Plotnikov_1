@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PR_21_102_Plotnikov_1"
         mc:Ignorable="d"
-        Title="MainWindow" MinHeight="400" MinWidth="400">
+        Title="Проверка 12-значного числа" MinHeight="400" MinWidth="400">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -19,6 +19,14 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
+        <TextBlock Grid.Row="0" Grid.Column="1" VerticalAlignment="Top" 
+                   TextWrapping="WrapWithOverflow"
+                   Margin="10,10,10,10"
+                   >
+            Рубежный контроль. Работу выполнил студент группы ПР-21.102 Плотников Степан
+        </TextBlock>
+        
+        
         <TextBlock Grid.Row="1" Grid.Column="1" VerticalAlignment="Top" 
                    TextWrapping="WrapWithOverflow"
                    Margin="10,10,10,10"
